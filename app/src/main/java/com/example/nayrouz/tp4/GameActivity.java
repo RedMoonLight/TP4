@@ -31,8 +31,9 @@ public class GameActivity extends AppCompatActivity {
                                     int position, long id) {
 
                 Ville.setText(List.getItemAtPosition(position).toString());
-                 Intent intentt= new Intent(GameActivity.class,HintActivity.class);
-                 startActivity(intentt);
+                // Intent intentt= new Intent(this,HintActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HintActivity.class);
+                startActivity(intent);
 
 
             }
