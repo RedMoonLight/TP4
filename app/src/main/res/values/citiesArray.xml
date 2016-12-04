@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="citiesArray">
+        <item>Sousse</item>
+        <item>Monastir</item>
+        <item>Sfax</item>
+        <item>Bizerte</item>
+        <item>Nabeul</item>
+        <item>Tozeur</item>
+        <item>Djerba</item>
+        <item>Béja</item>
+    </array>
+</resources>
